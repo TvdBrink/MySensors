@@ -189,7 +189,7 @@ MY_DEFAULT_RX_LED_PIN in your sketch instead to enable LEDs
 #define MY_REPEATER_FEATURE
 #endif
 #if !defined(MY_PORT)
-#error You must define MY_PORT (controller or gatway port to open)
+#error You must define MY_PORT (controller or gateway port to open)
 #endif
 #if defined(MY_GATEWAY_ESP8266)
 // GATEWAY - ESP8266
